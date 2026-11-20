@@ -1,89 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-label="A large gentle animated cat with moving paw prints">
-  <!-- Paw prints: top -->
-  <g fill="#B7A6D9">
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="70 44;116 44" dur="7.2s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="0.9s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="170 58;216 58" dur="7.2s" begin="0.9s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="1.8s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="270 42;316 42" dur="7.2s" begin="1.8s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="2.7s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="370 58;416 58" dur="7.2s" begin="2.7s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="3.6s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="470 42;516 42" dur="7.2s" begin="3.6s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="4.5s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="570 58;616 58" dur="7.2s" begin="4.5s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="5.4s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="670 42;716 42" dur="7.2s" begin="5.4s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-label="A large animated cat playing with a paper ball">
+  <!-- Paper ball -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="590 390;590 320;590 390" keyTimes="0;0.45;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1"/>
+    <circle cx="0" cy="0" r="26" fill="#E7B75F" stroke="#2F4858" stroke-width="5"/>
+    <path d="M-16 -8l32 16M-14 10l28-20" stroke="#2F4858" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
   </g>
 
-  <!-- Large cat -->
+  <!-- Cat body -->
   <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1"/>
+
+    <!-- Tail -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-7 520 388;9 520 388;-7 520 388" dur="1.6s" repeatCount="indefinite"/>
+      <path d="M520 388c74 18 114-10 120-58" fill="none" stroke="#2F4858" stroke-width="22" stroke-linecap="round"/>
+    </g>
+
+    <!-- Body -->
     <ellipse cx="400" cy="330" rx="150" ry="120" fill="#FAF6EF" stroke="#2F4858" stroke-width="7"/>
 
+    <!-- Ears -->
     <path d="M292 218c-10-48 6-82 28-92 18 28 42 46 70 52z" fill="#FAF6EF" stroke="#2F4858" stroke-width="7" stroke-linejoin="round"/>
     <path d="M508 218c10-48-6-82-28-92-18 28-42 46-70 52z" fill="#FAF6EF" stroke="#2F4858" stroke-width="7" stroke-linejoin="round"/>
 
     <path d="M330 218c-4-22 6-38 18-44 10 16 24 27 40 31z" fill="#E7B75F" opacity="0.75"/>
     <path d="M470 218c4-22-6-38-18-44-10 16-24 27-40 31z" fill="#E7B75F" opacity="0.75"/>
 
+    <!-- Face -->
     <g>
-      <animateTransform attributeName="transform" type="scale" values="1 1;1 0.08;1 1" keyTimes="0;0.08;0.16" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0.08;1;1" keyTimes="0;0.86;0.9;0.94;1" dur="4.6s" repeatCount="indefinite"/>
       <ellipse cx="352" cy="300" rx="17" ry="19" fill="#2F4858"/>
       <ellipse cx="448" cy="300" rx="17" ry="19" fill="#2F4858"/>
       <circle cx="357" cy="294" r="5" fill="#FAF6EF"/>
@@ -94,91 +39,30 @@
     <path d="M400 344v18m0 0c-8 11-23 11-31 3m31-3c8 11 23 11 31 3" fill="none" stroke="#2F4858" stroke-width="7" stroke-linecap="round"/>
 
     <ellipse cx="316" cy="338" rx="21" ry="13" fill="#E88C7D">
-      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="1.6s" repeatCount="indefinite"/>
     </ellipse>
     <ellipse cx="484" cy="338" rx="21" ry="13" fill="#E88C7D">
-      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="1.6s" repeatCount="indefinite"/>
     </ellipse>
 
+    <!-- Front paw reaching toward the ball -->
     <g>
-      <animateTransform attributeName="transform" type="rotate" values="0 530 388;8 530 388;0 530 388" dur="3.8s" repeatCount="indefinite"/>
-      <path d="M530 388c72 18 112-10 118-56" fill="none" stroke="#2F4858" stroke-width="22" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 500 360;26 500 360;0 500 360" keyTimes="0;0.45;1" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1"/>
+      <path d="M500 360c34 6 54-6 62-28" fill="none" stroke="#2F4858" stroke-width="20" stroke-linecap="round"/>
+      <circle cx="562" cy="330" r="15" fill="#FAF6EF" stroke="#2F4858" stroke-width="5"/>
     </g>
 
-    <path d="M250 382c-16-28-6-56 18-68" fill="none" stroke="#B7A6D9" stroke-width="7" stroke-linecap="round"/>
-    <path d="M550 382c16-28 6-56-18-68" fill="none" stroke="#B7A6D9" stroke-width="7" stroke-linecap="round"/>
+    <!-- Back paw -->
+    <path d="M300 392c-24 8-42 2-50-14" fill="none" stroke="#2F4858" stroke-width="20" stroke-linecap="round"/>
   </g>
 
-  <!-- Paw prints: bottom -->
-  <g fill="#E88C7D">
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="0.45s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="70 462;116 462" dur="7.2s" begin="0.45s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="1.35s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="170 476;216 476" dur="7.2s" begin="1.35s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="2.25s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="270 460;316 460" dur="7.2s" begin="2.25s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="3.15s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="370 476;416 476" dur="7.2s" begin="3.15s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="4.05s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="470 460;516 460" dur="7.2s" begin="4.05s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="4.95s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="570 476;616 476" dur="7.2s" begin="4.95s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
-
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="7.2s" begin="5.85s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="670 460;716 460" dur="7.2s" begin="5.85s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="14" ry="11"/>
-      <circle cx="-14" cy="-13" r="4.5"/>
-      <circle cx="-5" cy="-17" r="4.5"/>
-      <circle cx="5" cy="-17" r="4.5"/>
-      <circle cx="14" cy="-12" r="4.5"/>
-    </g>
+  <!-- Small motion lines near the ball -->
+  <g stroke="#B7A6D9" stroke-width="5" stroke-linecap="round" opacity="0.7">
+    <path d="M628 350h22">
+      <animate attributeName="opacity" values="0;0.8;0" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M634 382h18">
+      <animate attributeName="opacity" values="0;0.8;0" dur="1.6s" begin="0.25s" repeatCount="indefinite"/>
+    </path>
   </g>
 </svg>
