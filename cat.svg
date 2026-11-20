@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" role="img" aria-label="A gentle animated cat">
+  <style>
+    .tail {
+      transform-origin: 138px 168px;
+      animation: tail-sway 3.6s ease-in-out infinite;
+    }
+
+    .ear-left {
+      transform-origin: 82px 74px;
+      animation: ear-twitch 5.2s ease-in-out infinite;
+    }
+
+    .eye {
+      animation: blink 4.4s ease-in-out infinite;
+    }
+
+    .blush {
+      animation: blush 4.4s ease-in-out infinite;
+    }
+
+    @keyframes tail-sway {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(7deg); }
+    }
+
+    @keyframes ear-twitch {
+      0%, 86%, 100% { transform: rotate(0deg); }
+      90% { transform: rotate(-7deg); }
+      94% { transform: rotate(3deg); }
+    }
+
+    @keyframes blink {
+      0%, 88%, 100% { transform: scaleY(1); }
+      92% { transform: scaleY(0.08); }
+    }
+
+    @keyframes blush {
+      0%, 100% { opacity: 0.55; }
+      50% { opacity: 0.85; }
+    }
+  </style>
+
+  <circle cx="110" cy="112" r="94" fill="#FAF6EF"/>
+  <circle cx="110" cy="112" r="94" fill="none" stroke="#B7A6D9" stroke-width="2" stroke-dasharray="5 9" opacity="0.8"/>
+
+  <g class="tail">
+    <path d="M136 166c26 6 40-4 42-20" fill="none" stroke="#2F4858" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <ellipse cx="110" cy="140" rx="46" ry="38" fill="#FAF6EF" stroke="#2F4858" stroke-width="4"/>
+
+  <path d="M72 88c-4-18 2-30 10-34 6 10 14 16 24 18z" fill="#FAF6EF" stroke="#2F4858" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M148 88c4-18-2-30-10-34-6 10-14 16-24 18z" fill="#FAF6EF" stroke="#2F4858" stroke-width="4" stroke-linejoin="round"/>
+
+  <g class="ear-left">
+    <path d="M72 88c-4-18 2-30 10-34 6 10 14 16 24 18z" fill="#FAF6EF" stroke="#2F4858" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+
+  <circle cx="94" cy="112" r="7" fill="#2F4858" class="eye"/>
+  <circle cx="126" cy="112" r="7" fill="#2F4858" class="eye"/>
+
+  <path d="M104 126h12" stroke="#2F4858" stroke-width="3" stroke-linecap="round"/>
+  <path d="M110 126v7m0 0c-3 4-8 4-11 1m11-1c3 4 8 4 11 1" fill="none" stroke="#2F4858" stroke-width="3" stroke-linecap="round"/>
+
+  <ellipse cx="82" cy="126" rx="8" ry="5" fill="#E88C7D" class="blush"/>
+  <ellipse cx="138" cy="126" rx="8" ry="5" fill="#E88C7D" class="blush"/>
+
+  <path d="M52 150c-6-10-2-20 6-24" fill="none" stroke="#B7A6D9" stroke-width="3" stroke-linecap="round"/>
+  <path d="M168 150c6-10 2-20-6-24" fill="none" stroke="#B7A6D9" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M160 56c5-4 12-4 17 1" fill="none" stroke="#E7B75F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M163 49c3-3 8-3 11 1" fill="none" stroke="#E7B75F" stroke-width="3" stroke-linecap="round"/>
+</svg>
