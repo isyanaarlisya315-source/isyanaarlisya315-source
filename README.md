@@ -5,7 +5,7 @@ Also known as **Musyi** — a playful twist on *musisi*, and my pen name.
 I’m an aspiring Psychology undergraduate, curious about how music, emotion, and well-being meet. I like research, history, singing, writing, coding, and trying to understand people a little more gently.
 
 <div align="center">
-  <img src="https://img.shields.io/badge/made%20with-warmth-B7A6D9?style=for-the-badge" alt="Made with warmth" />
+  <img src="https://img.shields.io/badge/a%20little%20world%20of-melodies%20%26%20feelings-B7A6D9?style=for-the-badge" alt="A little world of melodies and feelings" />
 </div>
 
 ## things I love
