@@ -1,8 +1,20 @@
-## a little about me
+## a little about me >.<
 
 Also known as **Musyi** — a playful twist on *musisi*, and my pen name.
 
 I’m an aspiring Psychology undergraduate, curious about how music, emotion, and well-being meet. I like research, history, singing, writing, coding, and trying to understand people a little more gently.
+
+## things I love
+
+- Music and the way it can hold feelings  
+- Psychology, emotions, and human stories  
+- Writing and turning thoughts into words  
+- Singing, even when it is just for myself  
+- History and old stories  
+- Coding and making small interactive things  
+- Cats, bunnies, quiet corners, and warm colors  
+- Understanding people, including myself  
+
 
 ## What I’m exploring
 
