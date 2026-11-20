@@ -1,5 +1,5 @@
 <div align="center">
-<img src="URL-BANNER-KAMU.png" width="100%" alt="Elegant banner for Isyana Arlisya" />
+
 <br>
 
 # ✦ Isyana Arlisya ✦
