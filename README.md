@@ -4,7 +4,7 @@ Also known as **Musyi** — a playful twist on *musisi*, and my pen name.
 
 I’m an aspiring Psychology undergraduate, curious about how music, emotion, and well-being meet. I like research, history, singing, writing, coding, and trying to understand people a little more gently.
 
-<img src="cat.svg" alt="A large gentle animated cat with moving paw prints" width="420" />
+<img src="cat-walk.svg" alt="A full-body cat with a paw-print trail" width="300" />
 
 ## things I love
 
