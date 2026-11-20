@@ -1,5 +1,17 @@
 ## a little about me >.<
+<div align="center">
 
+# Isyana Arlisya
+
+*psychology student · music lover · curious about people*
+
+</div>
+
+---
+
+✿ *a little world of thoughts, feelings, and melodies* ✿
+
+---
 Also known as **Musyi** — a playful twist on *musisi*, and my pen name.
 
 I’m an aspiring Psychology undergraduate, curious about how music, emotion, and well-being meet. I like research, history, singing, writing, coding, and trying to understand people a little more gently.
