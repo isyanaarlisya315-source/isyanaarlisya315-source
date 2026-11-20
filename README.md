@@ -1,4 +1,4 @@
-# Hi, I’m Syan ✿
+## a little about me
 
 Also known as **Musyi** — a playful twist on *musisi*, and my pen name.
 
