@@ -5,13 +5,13 @@
 <img src="URL-GIF-NOT-MUSIK.gif" width="48" alt="animated music note" />
 
 # Isyana Arlisya
+<div align="center">
 
-*psychology student · music lover · curious about people*
-
-<img src="URL-GIF-NOT-MUSIK.gif" width="48" alt="animated music note" />
+[![](https://img.shields.io/badge/psychology%20student-2F4858?style=for-the-badge)](#)
+[![](https://img.shields.io/badge/music%20lover-B7A6D9?style=for-the-badge)](#)
+[![](https://img.shields.io/badge/curious%20about%20people-E88C7D?style=for-the-badge)](#)
 
 </div>
-
 ---
 
 💕 *a little world of thoughts, feelings, and melodies* 💕
