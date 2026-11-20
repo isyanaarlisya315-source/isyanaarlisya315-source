@@ -15,7 +15,7 @@ I’m an aspiring Psychology undergraduate, curious about how music, emotion, an
 
 **Mind Melody** — a small digital world about thoughts, feelings, and the melodies that help us name them.
 
-→ [Visit Mind Melody](https://v0-chapter-18.vercel.app/)
+→ [Visit Mind Melody](https://v0-mind-melody.vercel.app)
 
 ## Let’s connect
 
