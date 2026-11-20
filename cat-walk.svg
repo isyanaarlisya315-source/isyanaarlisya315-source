@@ -1,76 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 700" width="400" height="700" role="img" aria-label="A full-body cat with a paw-print trail">
-  <g fill="#B7A6D9" opacity="0.8">
-    <g transform="translate(150 60)">
-      <ellipse cx="0" cy="0" rx="13" ry="10"/>
-      <circle cx="-13" cy="-12" r="4"/>
-      <circle cx="-4" cy="-16" r="4"/>
-      <circle cx="5" cy="-16" r="4"/>
-      <circle cx="13" cy="-11" r="4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520" role="img" aria-label="A cute full-body cat with paw prints">
+  <!-- Paw prints -->
+  <g fill="#B7A6D9" opacity="0.85">
+    <g transform="translate(90 70)">
+      <ellipse cx="0" cy="0" rx="12" ry="9"/>
+      <circle cx="-12" cy="-11" r="4"/>
+      <circle cx="-4" cy="-14" r="4"/>
+      <circle cx="4" cy="-14" r="4"/>
+      <circle cx="12" cy="-10" r="4"/>
     </g>
-    <g transform="translate(230 110)">
-      <ellipse cx="0" cy="0" rx="13" ry="10"/>
-      <circle cx="-13" cy="-12" r="4"/>
-      <circle cx="-4" cy="-16" r="4"/>
-      <circle cx="5" cy="-16" r="4"/>
-      <circle cx="13" cy="-11" r="4"/>
+    <g transform="translate(300 100)">
+      <ellipse cx="0" cy="0" rx="12" ry="9"/>
+      <circle cx="-12" cy="-11" r="4"/>
+      <circle cx="-4" cy="-14" r="4"/>
+      <circle cx="4" cy="-14" r="4"/>
+      <circle cx="12" cy="-10" r="4"/>
     </g>
-    <g transform="translate(150 170)">
-      <ellipse cx="0" cy="0" rx="13" ry="10"/>
-      <circle cx="-13" cy="-12" r="4"/>
-      <circle cx="-4" cy="-16" r="4"/>
-      <circle cx="5" cy="-16" r="4"/>
-      <circle cx="13" cy="-11" r="4"/>
+    <g transform="translate(80 430)">
+      <ellipse cx="0" cy="0" rx="12" ry="9"/>
+      <circle cx="-12" cy="-11" r="4"/>
+      <circle cx="-4" cy="-14" r="4"/>
+      <circle cx="4" cy="-14" r="4"/>
+      <circle cx="12" cy="-10" r="4"/>
+    </g>
+    <g transform="translate(310 450)">
+      <ellipse cx="0" cy="0" rx="12" ry="9"/>
+      <circle cx="-12" cy="-11" r="4"/>
+      <circle cx="-4" cy="-14" r="4"/>
+      <circle cx="4" cy="-14" r="4"/>
+      <circle cx="12" cy="-10" r="4"/>
     </g>
   </g>
 
-  <!-- Full-body cat -->
-  <g transform="translate(200 360)">
-    <ellipse cx="0" cy="90" rx="72" ry="88" fill="#FAF6EF" stroke="#2F4858" stroke-width="6"/>
+  <!-- Cute full-body cat -->
+  <g transform="translate(200 260)">
+    <!-- Tail -->
+    <path d="M70 120c58 10 82-18 84-52" fill="none" stroke="#2F4858" stroke-width="18" stroke-linecap="round"/>
 
-    <path d="M-56 -58c-8-34 4-58 22-66 14 22 32 36 54 40z" fill="#FAF6EF" stroke="#2F4858" stroke-width="6" stroke-linejoin="round"/>
-    <path d="M56 -58c8-34-4-58-22-66-14 22-32 36-54 40z" fill="#FAF6EF" stroke="#2F4858" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Body -->
+    <ellipse cx="0" cy="60" rx="78" ry="90" fill="#FAF6EF" stroke="#2F4858" stroke-width="6"/>
 
-    <path d="M-38 -58c-3-17 5-29 14-34 8 13 19 21 32 24z" fill="#E7B75F" opacity="0.7"/>
-    <path d="M38 -58c3-17-5-29-14-34-8 13-19 21-32 24z" fill="#E7B75F" opacity="0.7"/>
+    <!-- Front paws -->
+    <ellipse cx="-36" cy="140" rx="22" ry="14" fill="#FAF6EF" stroke="#2F4858" stroke-width="5"/>
+    <ellipse cx="36" cy="140" rx="22" ry="14" fill="#FAF6EF" stroke="#2F4858" stroke-width="5"/>
 
-    <circle cx="-28" cy="-8" r="12" fill="#2F4858"/>
-    <circle cx="28" cy="-8" r="12" fill="#2F4858"/>
-    <circle cx="-24" cy="-12" r="4" fill="#FAF6EF"/>
-    <circle cx="32" cy="-12" r="4" fill="#FAF6EF"/>
+    <!-- Ears -->
+    <path d="M-62 -72c-8-32 2-54 20-62 14 22 34 36 56 42z" fill="#FAF6EF" stroke="#2F4858" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M62 -72c8-32-2-54-20-62-14 22-34 36-56 42z" fill="#FAF6EF" stroke="#2F4858" stroke-width="6" stroke-linejoin="round"/>
 
-    <path d="M-10 20h20" stroke="#2F4858" stroke-width="5" stroke-linecap="round"/>
-    <path d="M0 20v14m0 0c-6 8-17 8-23 2m23-2c6 8 17 8 23 2" fill="none" stroke="#2F4858" stroke-width="5" stroke-linecap="round"/>
+    <!-- Inner ears -->
+    <path d="M-46 -70c-4-20 2-34 14-40 10 16 24 26 42 30z" fill="#E7B75F" opacity="0.65"/>
+    <path d="M46 -70c4-20-2-34-14-40-10 16-24 26-42 30z" fill="#E7B75F" opacity="0.65"/>
 
-    <ellipse cx="-50" cy="14" rx="15" ry="9" fill="#E88C7D"/>
-    <ellipse cx="50" cy="14" rx="15" ry="9" fill="#E88C7D"/>
+    <!-- Face -->
+    <circle cx="-30" cy="-18" r="13" fill="#2F4858"/>
+    <circle cx="30" cy="-18" r="13" fill="#2F4858"/>
+    <circle cx="-26" cy="-23" r="4" fill="#FAF6EF"/>
+    <circle cx="34" cy="-23" r="4" fill="#FAF6EF"/>
 
-    <path d="M60 130c56 14 88-8 94-46" fill="none" stroke="#2F4858" stroke-width="17" stroke-linecap="round"/>
+    <path d="M-8 14h16" stroke="#2F4858" stroke-width="5" stroke-linecap="round"/>
+    <path d="M0 14v12m0 0c-6 9-17 9-23 2m23-2c6 9 17 9 23 2" fill="none" stroke="#2F4858" stroke-width="5" stroke-linecap="round"/>
 
-    <ellipse cx="-34" cy="168" rx="20" ry="12" fill="#FAF6EF" stroke="#2F4858" stroke-width="5"/>
-    <ellipse cx="34" cy="168" rx="20" ry="12" fill="#FAF6EF" stroke="#2F4858" stroke-width="5"/>
-  </g>
+    <ellipse cx="-48" cy="10" rx="16" ry="10" fill="#E88C7D" opacity="0.7"/>
+    <ellipse cx="48" cy="10" rx="16" ry="10" fill="#E88C7D" opacity="0.7"/>
 
-  <g fill="#E88C7D" opacity="0.8">
-    <g transform="translate(170 560)">
-      <ellipse cx="0" cy="0" rx="13" ry="10"/>
-      <circle cx="-13" cy="-12" r="4"/>
-      <circle cx="-4" cy="-16" r="4"/>
-      <circle cx="5" cy="-16" r="4"/>
-      <circle cx="13" cy="-11" r="4"/>
-    </g>
-    <g transform="translate(230 610)">
-      <ellipse cx="0" cy="0" rx="13" ry="10"/>
-      <circle cx="-13" cy="-12" r="4"/>
-      <circle cx="-4" cy="-16" r="4"/>
-      <circle cx="5" cy="-16" r="4"/>
-      <circle cx="13" cy="-11" r="4"/>
-    </g>
-    <g transform="translate(170 660)">
-      <ellipse cx="0" cy="0" rx="13" ry="10"/>
-      <circle cx="-13" cy="-12" r="4"/>
-      <circle cx="-4" cy="-16" r="4"/>
-      <circle cx="5" cy="-16" r="4"/>
-      <circle cx="13" cy="-11" r="4"/>
-    </g>
+    <!-- Whiskers -->
+    <path d="M-70 4h-32M-70 16h-30M70 4h32M70 16h30" stroke="#2F4858" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>
