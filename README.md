@@ -1,4 +1,6 @@
 <div align="center">
+<img src="URL-BANNER-KAMU.png" width="100%" alt="Elegant banner for Isyana Arlisya" />
+<br>
 
 # ✦ Isyana Arlisya ✦
 
@@ -17,11 +19,13 @@
 
 ✿ *a little world of thoughts, feelings, and melodies* ✿
 
+<br>
+
 </div>
 
 ---
 
-## ✦ About Me
+## ✦ About
 
 Also known as **Musyi** — a playful twist on *musisi*, and my pen name.
 
