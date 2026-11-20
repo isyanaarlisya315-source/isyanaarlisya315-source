@@ -1,69 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520" role="img" aria-label="A cute full-body cat with paw prints">
-  <!-- Paw prints -->
-  <g fill="#B7A6D9" opacity="0.85">
-    <g transform="translate(90 70)">
-      <ellipse cx="0" cy="0" rx="12" ry="9"/>
-      <circle cx="-12" cy="-11" r="4"/>
-      <circle cx="-4" cy="-14" r="4"/>
-      <circle cx="4" cy="-14" r="4"/>
-      <circle cx="12" cy="-10" r="4"/>
-    </g>
-    <g transform="translate(300 100)">
-      <ellipse cx="0" cy="0" rx="12" ry="9"/>
-      <circle cx="-12" cy="-11" r="4"/>
-      <circle cx="-4" cy="-14" r="4"/>
-      <circle cx="4" cy="-14" r="4"/>
-      <circle cx="12" cy="-10" r="4"/>
-    </g>
-    <g transform="translate(80 430)">
-      <ellipse cx="0" cy="0" rx="12" ry="9"/>
-      <circle cx="-12" cy="-11" r="4"/>
-      <circle cx="-4" cy="-14" r="4"/>
-      <circle cx="4" cy="-14" r="4"/>
-      <circle cx="12" cy="-10" r="4"/>
-    </g>
-    <g transform="translate(310 450)">
-      <ellipse cx="0" cy="0" rx="12" ry="9"/>
-      <circle cx="-12" cy="-11" r="4"/>
-      <circle cx="-4" cy="-14" r="4"/>
-      <circle cx="4" cy="-14" r="4"/>
-      <circle cx="12" cy="-10" r="4"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" role="img" aria-label="A cute full-body cat playing with a paper ball">
+  <!-- Paper ball -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="390 350;390 280;390 350" keyTimes="0;0.45;1" dur="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1"/>
+    <circle cx="0" cy="0" r="28" fill="#E7B75F" stroke="#2F4858" stroke-width="5"/>
+    <path d="M-18 -10l36 20M-16 12l32-24" stroke="#2F4858" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
   </g>
 
-  <!-- Cute full-body cat -->
-  <g transform="translate(200 260)">
+  <!-- Cat -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1"/>
+
     <!-- Tail -->
-    <path d="M70 120c58 10 82-18 84-52" fill="none" stroke="#2F4858" stroke-width="18" stroke-linecap="round"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-8 292 352;10 292 352;-8 292 352" dur="1.5s" repeatCount="indefinite"/>
+      <path d="M292 352c66 16 102-10 108-56" fill="none" stroke="#2F4858" stroke-width="20" stroke-linecap="round"/>
+    </g>
 
     <!-- Body -->
-    <ellipse cx="0" cy="60" rx="78" ry="90" fill="#FAF6EF" stroke="#2F4858" stroke-width="6"/>
+    <ellipse cx="230" cy="330" rx="92" ry="76" fill="#FAF6EF" stroke="#2F4858" stroke-width="6"/>
 
-    <!-- Front paws -->
-    <ellipse cx="-36" cy="140" rx="22" ry="14" fill="#FAF6EF" stroke="#2F4858" stroke-width="5"/>
-    <ellipse cx="36" cy="140" rx="22" ry="14" fill="#FAF6EF" stroke="#2F4858" stroke-width="5"/>
+    <!-- Back legs -->
+    <ellipse cx="176" cy="396" rx="26" ry="16" fill="#FAF6EF" stroke="#2F4858" stroke-width="5"/>
+    <ellipse cx="278" cy="396" rx="26" ry="16" fill="#FAF6EF" stroke="#2F4858" stroke-width="5"/>
+
+    <!-- Head -->
+    <circle cx="230" cy="205" r="88" fill="#FAF6EF" stroke="#2F4858" stroke-width="6"/>
 
     <!-- Ears -->
-    <path d="M-62 -72c-8-32 2-54 20-62 14 22 34 36 56 42z" fill="#FAF6EF" stroke="#2F4858" stroke-width="6" stroke-linejoin="round"/>
-    <path d="M62 -72c8-32-2-54-20-62-14 22-34 36-56 42z" fill="#FAF6EF" stroke="#2F4858" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M168 148c-6-34 4-56 22-64 14 22 34 36 56 42z" fill="#FAF6EF" stroke="#2F4858" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M292 148c6-34-4-56-22-64-14 22-34 36-56 42z" fill="#FAF6EF" stroke="#2F4858" stroke-width="6" stroke-linejoin="round"/>
 
-    <!-- Inner ears -->
-    <path d="M-46 -70c-4-20 2-34 14-40 10 16 24 26 42 30z" fill="#E7B75F" opacity="0.65"/>
-    <path d="M46 -70c4-20-2-34-14-40-10 16-24 26-42 30z" fill="#E7B75F" opacity="0.65"/>
+    <path d="M184 146c-4-22 4-38 16-44 10 16 24 26 42 30z" fill="#E7B75F" opacity="0.65"/>
+    <path d="M276 146c4-22-4-38-16-44-10 16-24 26-42 30z" fill="#E7B75F" opacity="0.65"/>
 
     <!-- Face -->
-    <circle cx="-30" cy="-18" r="13" fill="#2F4858"/>
-    <circle cx="30" cy="-18" r="13" fill="#2F4858"/>
-    <circle cx="-26" cy="-23" r="4" fill="#FAF6EF"/>
-    <circle cx="34" cy="-23" r="4" fill="#FAF6EF"/>
+    <circle cx="198" cy="212" r="13" fill="#2F4858"/>
+    <circle cx="262" cy="212" r="13" fill="#2F4858"/>
+    <circle cx="202" cy="207" r="4" fill="#FAF6EF"/>
+    <circle cx="266" cy="207" r="4" fill="#FAF6EF"/>
 
-    <path d="M-8 14h16" stroke="#2F4858" stroke-width="5" stroke-linecap="round"/>
-    <path d="M0 14v12m0 0c-6 9-17 9-23 2m23-2c6 9 17 9 23 2" fill="none" stroke="#2F4858" stroke-width="5" stroke-linecap="round"/>
+    <path d="M220 246h20" stroke="#2F4858" stroke-width="5" stroke-linecap="round"/>
+    <path d="M230 246v14m0 0c-7 10-19 10-25 3m25-3c7 10 19 10 25 3" fill="none" stroke="#2F4858" stroke-width="5" stroke-linecap="round"/>
 
-    <ellipse cx="-48" cy="10" rx="16" ry="10" fill="#E88C7D" opacity="0.7"/>
-    <ellipse cx="48" cy="10" rx="16" ry="10" fill="#E88C7D" opacity="0.7"/>
+    <ellipse cx="176" cy="240" rx="17" ry="11" fill="#E88C7D" opacity="0.7"/>
+    <ellipse cx="284" cy="240" rx="17" ry="11" fill="#E88C7D" opacity="0.7"/>
 
-    <!-- Whiskers -->
-    <path d="M-70 4h-32M-70 16h-30M70 4h32M70 16h30" stroke="#2F4858" stroke-width="4" stroke-linecap="round"/>
-  </g>
-</svg>
+    <!-- Front paw batting the ball -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 300 320;30 300 320;0 300 320" keyTimes="0;0.45;1" dur="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1"/>
+      <path d="M300 320c30 6 48-6 56-26" fill="none" stroke="#2F4858" stroke-width="18" stroke-linecap="round"/>
+      <circle cx="356"
